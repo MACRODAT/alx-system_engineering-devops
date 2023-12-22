@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Tell the story of passwd
+# tu passwd
 
 file="/etc/passwd"
 
