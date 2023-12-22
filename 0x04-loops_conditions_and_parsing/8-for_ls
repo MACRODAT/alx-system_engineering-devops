@@ -2,5 +2,7 @@
 # ls working script
 
 for file in *-*; do
-  echo "$file" | cut -d'-' -f2-
+  if [[ ! "$file" == .* ]]; then
+    echo "$file" | cut -d'-' -f2-
+  fi
 done
