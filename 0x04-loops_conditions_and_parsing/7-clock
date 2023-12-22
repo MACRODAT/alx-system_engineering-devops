@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#display clock
+# this script prints stuff
 h=0
 m=1
 while [ $h -lt 13 ]; do

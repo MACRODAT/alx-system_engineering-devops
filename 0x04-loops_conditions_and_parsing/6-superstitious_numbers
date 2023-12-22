@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#no matter where
+# this script prints stuff
 i=1
 while [ $i -lt 21 ]; do
 	echo "$i"
