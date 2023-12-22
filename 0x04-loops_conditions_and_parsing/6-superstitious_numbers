@@ -8,7 +8,7 @@ while [ $i -lt 21 ]; do
 	elif ((i==9)); then
 		echo "bad luck from Japan"
 	elif ((i==17)); then
-		echo "bad luck from italy"
+		echo "bad luck from Italy"
 	fi
 	((i++))
 done
