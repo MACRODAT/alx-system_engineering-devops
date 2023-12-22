@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# this script prints stuff
+i=0
+display="Best School"
+while [ $i -lt 10 ]
+do
+	echo "$display"
+	((i++))
+done
