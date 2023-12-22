@@ -8,11 +8,11 @@ if [ -e "$file" ]; then
 
   echo "school file exists"
 
-  # checks if file is empty
+  # ce
   if [ ! -s "$file" ]; then
     echo "school file is empty"
 
-    # checks if file is a regular file
+    # ce
     if [ -f "$file" ]; then
       echo "school is a regular file"
     fi  
@@ -21,7 +21,7 @@ if [ -e "$file" ]; then
 
     echo "school file is not empty"
 
-    # checks if file is a regular file
+    # ce
     if [ -f "$file" ]; then
       echo "school is a regular file"
     fi  
