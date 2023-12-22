@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ls working script
 
-for file in *-*; do
+for file in *; do
   if [ -f "$file" ] && [[ ! "$file" == .* ]]; then
     echo "$file" | cut -d '-' -f 2;
   fi
