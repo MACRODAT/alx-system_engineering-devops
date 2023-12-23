@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# kills something
+pid=$(pgrep -f "7-highlander")
+kill -s SIGKILL "$pid"
