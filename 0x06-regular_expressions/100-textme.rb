@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-from = ARGV[0].scan(/from:(.*?)\]/)
+fm = ARGV[0].scan(/fm:(.*?)\]/)
 to = ARGV[0].scan(/to:(.*?)\]/)
-flags = ARGV[0].scan(/flags:(.*?)\]/)
-puts [from, to, flags].join(',')
+fg = ARGV[0].scan(/fg:(.*?)\]/)
+puts [fm, to, fg].join(',')
