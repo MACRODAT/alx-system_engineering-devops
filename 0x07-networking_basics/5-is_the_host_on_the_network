@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
-# script that pings an IP address passed as an argument
+# scrth at pass_ipt pings an ressed as an ar_ip addgument
 
-# ip variable
-IP="${1}"
-
-# filename variable
 fn=$(basename "${BASH_SOURCE[@]}")
+_ip="${1}"
 
-if ! [ "$IP" ]; then
-	echo "Usage: ${fn} {IP_ADDRESS}"
+if ! [ "$_ip" ]; then
+	echo "Usage: ${fn} {_ip_ADDRESS}"
 else
-	ping -c 5 "${IP}"
+	ping -c 5 "${_ip}"
 fi
