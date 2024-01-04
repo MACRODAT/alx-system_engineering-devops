@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# active ips on device
+
+ip -4 -o addr show | awk '{print $4}' | cut -d "/" -f 1
+
