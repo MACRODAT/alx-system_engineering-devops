@@ -1,3 +1,4 @@
+#!/usr/bin/pup
 # Create a file conf
 file { '/tmp/school':
   ensure  => file,
