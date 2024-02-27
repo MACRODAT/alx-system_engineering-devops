@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# ssh config file
+Host 486208-web-01
+	Hostname 100.25.37.87
+	User Ubuntu
+	PasswordAuthentification no
+	IdentityFile ~/.ssh/school
