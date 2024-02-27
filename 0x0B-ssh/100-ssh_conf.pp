@@ -8,7 +8,7 @@ file_line { 'Turn off passwordd authentification':
   replace => true,
 }
 
-file_line { 'Delare identity file':
+file_line { 'Delare pass file':
   ensure => present,
   path   => '/etc/ssh/ssh_config',
   line   => '     IdentityFile ~/.ssh/school',
