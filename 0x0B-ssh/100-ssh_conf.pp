@@ -1,7 +1,7 @@
 # Setting up my client config file
 include stdlib
 
-file_line { 'Turn off passwd auth':
+file_line { 'Turn off passwordd authentification':
   ensure => present,
   path   => '/etc/ssh/ssh_config',
   line   => '    PasswordAuthentication no',
