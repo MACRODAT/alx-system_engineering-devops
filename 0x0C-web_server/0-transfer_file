@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# FTp file from client to server
+# transfer file from client to server
 #
-path="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+path="$(cd "$(dirname "${BASH_SOURCE[0]}")")"
 filename=$(basename "$BASH_SOURCE")
 red='\e[0;44m'
 black='\033[0m'
