@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# Sets up a fresh Ubuntu instance by installing Nginx,
+# configuring it to listen on port 80, and serving
+# a page that displays a "Hello, World!" message.
+#
+red='\e[1;34m'
+black='\e[0;33m'
+green='\e[1;32m'
+normal='\033[0m'
+
+echo -e "${red}Starting ${black}Nginx${red}.${normal}\n"
+sudo apt-get update -y -qq && \
+	 sudo apt-get install nginx -y
+
+echo -e "\n${red}Finishing...${normal}\n"
+
+# starting ngix
+sudo service nginx start
+
+# al firewall
+# sudo ufw allow 'Nginx HTTP'
+
+# ownership to website file
+sudo chown -R "$USER":"$USER" /var/www/html
+sudo chmod -R 755 /var/www
+
+# Backup
+cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
+
+# files
+echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
+
+# Restarting nginx
+sudo service nginx restart
+
+echo -e "\n${green}Finished.${normal} ✅\n"
