@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# Configures a ubuntu with redirection
+#
+red='\e[1;34m'
+brown='\e[0;33m'
+green='\e[1;32m'
+normal='\033[0m'
+
+echo -e "${red}Updating and installing ${brown}Nginx${red}.${normal}\n"
+sudo apt-get update -y -qq && \
+	 sudo apt-get install nginx -y
+
+echo -e "\n${red}Setting up some minor stuff.${normal}\n"
+
+sudo service nginx start
+
+if [ -d "/var/www/html" ]; then
+	echo "Nginx installed"
+else
+	echo -e "${red}Nginx not installed${normal}"
+fi
+
+sudo ufw allow 'Nginx HTTP'
+
+sudo chown -R "$USER":"$USER" /var/www/html
+sudo chmod -R 755 /var/www
+
+cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
+
+echo -e "Hello World!" > /var/www/html/index.nginx-debian.html
+
+sudo sed -i '24i\	rewrite ^/redirect_me https://www.youtube.com/watch?v=SGwHRImfE4E permanent;' /etc/nginx/sites-available/default
+
+# Restarting nginx
+sudo service nginx restart
+
+echo -e "\n${green}Completed.${normal} ✅\n"
