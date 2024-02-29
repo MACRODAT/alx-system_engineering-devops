@@ -1,0 +1,57 @@
+10:32:35.003094 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.49730: 64351 NXDomain 0/1/0 (154)
+10:32:35.003119 IP 172.30.15.207 > DESKTOP-NQP1I71.mshome.net: ICMP 172.30.15.207 udp port 49730 unreachable, length 190
+10:32:35.071038 IP 172.30.15.207.41379 > DESKTOP-NQP1I71.mshome.net.domain: 28260+ PTR? 207.15.30.172.in-addr.arpa. (44)
+10:32:35.073122 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 207.15.30.172.in-addr.arpa.local. (50)
+10:32:35.073966 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? 207.15.30.172.in-addr.arpa.local. (50)
+10:32:35.146902 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 207.15.30.172.in-addr.arpa.local. (50)
+10:32:35.147713 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? 207.15.30.172.in-addr.arpa.local. (50)
+10:32:36.079758 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 207.15.30.172.in-addr.arpa.local. (50)
+10:32:36.080406 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? 207.15.30.172.in-addr.arpa.local. (50)
+10:32:36.157524 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 207.15.30.172.in-addr.arpa.local. (50)
+10:32:36.158211 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? 207.15.30.172.in-addr.arpa.local. (50)
+10:32:36.228417 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.41379: 28260 NXDomain* 0/1/0 (98)
+10:32:36.228569 IP 172.30.15.207.53419 > DESKTOP-NQP1I71.mshome.net.domain: 3376+ PTR? 1.0.30.172.in-addr.arpa. (41)
+10:32:36.229492 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.53419: 3376- 1/0/0 PTR DESKTOP-NQP1I71.mshome.net. (104)
+10:32:36.229596 IP 172.30.15.207.36091 > DESKTOP-NQP1I71.mshome.net.domain: 38914+ PTR? 251.0.0.224.in-addr.arpa. (42)
+10:32:36.230370 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.36091: 38914- 1/0/0 PTR mdns.mcast.net. (94)
+10:32:36.230561 IP 172.30.15.207.54413 > DESKTOP-NQP1I71.mshome.net.domain: 30837+ PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (90)
+10:32:36.232531 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa.local. (96)
+10:32:36.233184 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa.local. (96)
+10:32:36.282719 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa.local. (96)
+10:32:36.283287 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa.local. (96)
+10:32:37.242999 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa.local. (96)
+10:32:37.243777 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa.local. (96)
+10:32:37.289761 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa.local. (96)
+10:32:37.290601 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa.local. (96)
+10:32:37.395461 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.54413: 30837 NXDomain 0/1/0 (154)
+10:32:37.395623 IP 172.30.15.207.54248 > DESKTOP-NQP1I71.mshome.net.domain: 42752+ PTR? 6.e.b.7.f.8.a.f.e.7.e.9.0.f.5.a.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+10:32:37.442046 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 6.e.b.7.f.8.a.f.e.7.e.9.0.f.5.a.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+10:32:37.442457 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? 6.e.b.7.f.8.a.f.e.7.e.9.0.f.5.a.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+10:32:38.444128 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 6.e.b.7.f.8.a.f.e.7.e.9.0.f.5.a.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+10:32:38.445302 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? 6.e.b.7.f.8.a.f.e.7.e.9.0.f.5.a.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+10:32:38.445811 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.54248: 42752- 1/0/0 PTR DESKTOP-NQP1I71. (191)
+10:32:39.221919 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.41379: 28260 NXDomain* 0/1/0 (98)
+10:32:39.221949 IP 172.30.15.207 > DESKTOP-NQP1I71.mshome.net: ICMP 172.30.15.207 udp port 41379 unreachable, length 134
+10:32:40.363763 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.54413: 30837 NXDomain 0/1/0 (154)
+10:32:40.363787 IP 172.30.15.207 > DESKTOP-NQP1I71.mshome.net: ICMP 172.30.15.207 udp port 54413 unreachable, length 190
+10:32:41.426754 IP 172.30.15.207.34566 > DESKTOP-NQP1I71.mshome.net.domain: 45093+ A? smtp.sendgrid.net. (35)
+10:32:41.426758 IP 172.30.15.207.34566 > DESKTOP-NQP1I71.mshome.net.domain: 46119+ AAAA? smtp.sendgrid.net. (35)
+10:32:41.507262 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.34566: 46119- 4/0/0 AAAA 2c0f:fa18:0:10::36e4:2758, AAAA 2c0f:fa18:0:10::6c80:e5b8, AAAA 2c0f:fa18:0:10::3439:8b7e, AAAA 2c0f:fa18:0:10::12c5:c2d0 (164)
+10:32:41.507262 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.34566: 45093- 4/0/0 A 54.228.39.88, A 108.128.229.184, A 52.57.139.126, A 18.197.194.208 (116)
+10:32:41.507436 IP 172.30.15.207.44598 > ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission: Flags [S], seq 589619568, win 64240, options [mss 1460,sackOK,TS val 693814413 ecr 0,nop,wscale 7], length 0
+10:32:41.579359 IP ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission > 172.30.15.207.44598: Flags [S.], seq 829491664, ack 589619569, win 31856, options [mss 1400,sackOK,TS val 2104097589 ecr 693814413,nop,wscale 9], length 0
+10:32:41.579396 IP 172.30.15.207.44598 > ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission: Flags [.], ack 1, win 502, options [nop,nop,TS val 693814485 ecr 2104097589], length 0
+10:32:41.579482 IP 172.30.15.207.44598 > ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission: Flags [P.], seq 1:37, ack 1, win 502, options [nop,nop,TS val 693814485 ecr 2104097589], length 36
+10:32:41.649774 IP ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission > 172.30.15.207.44598: Flags [.], ack 1, win 63, options [nop,nop,TS val 2104097659 ecr 693814485], length 0
+10:32:41.650175 IP ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission > 172.30.15.207.44598: Flags [.], ack 37, win 63, options [nop,nop,TS val 2104097660 ecr 693814485], length 0
+10:32:41.650175 IP ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission > 172.30.15.207.44598: Flags [P.], seq 1:48, ack 1, win 63, options [nop,nop,TS val 2104097659 ecr 693814485], length 47
+10:32:41.650175 IP ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission > 172.30.15.207.44598: Flags [P.], seq 48:178, ack 37, win 63, options [nop,nop,TS val 2104097660 ecr 693814485], length 130
+10:32:41.650187 IP 172.30.15.207.44598 > ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission: Flags [.], ack 48, win 502, options [nop,nop,TS val 693814555 ecr 2104097659], length 0
+10:32:41.650207 IP 172.30.15.207.44598 > ec2-54-228-39-88.eu-west-1.compute.amazonaws.com.submission: Flags [.], ack 178, win 501, options [nop,nop,TS val 693814555 ecr 2104097660], length 0
+10:32:42.232781 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.41379: 28260 NXDomain* 0/1/0 (98)
+10:32:42.232799 IP 172.30.15.207 > DESKTOP-NQP1I71.mshome.net: ICMP 172.30.15.207 udp port 41379 unreachable, length 134
+10:32:42.350972 IP 172.30.15.207.35203 > DESKTOP-NQP1I71.mshome.net.domain: 43439+ PTR? 88.39.228.54.in-addr.arpa. (43)
+10:32:42.352960 IP DESKTOP-NQP1I71.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 88.39.228.54.in-addr.arpa.local. (49)
+10:32:42.353698 IP6 DESKTOP-NQP1I71.mdns > ff02::fb.mdns: 0 PTR (QM)? 88.39.228.54.in-addr.arpa.local. (49)
+10:32:42.496477 IP DESKTOP-NQP1I71.mshome.net.domain > 172.30.15.207.35203: 43439- 1/0/0 PTR ec2-54-228-39-88.eu-west-1.compute.amazonaws.com. (130)
+10:32:43.379557 IP DESKTOP-NQP1I71.mshome.
