@@ -17,8 +17,14 @@ echo -e "\n${red}Finishing...${normal}\n"
 # starting ngix
 sudo service nginx start
 
+if [ -d "/var/www/html" ]; then
+	echo "Nginx installed"
+else
+	echo -e "${red}Nginx not installed${normal}"
+fi
+
 # al firewall
-# sudo ufw allow 'Nginx HTTP'
+sudo ufw allow 'Nginx HTTP'
 
 # ownership to website file
 sudo chown -R "$USER":"$USER" /var/www/html
@@ -33,4 +39,4 @@ echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
 # Restarting nginx
 sudo service nginx restart
 
-echo -e "\n${green}Finished.${normal} ✅\n"
+echo -e "\n${green} --- Finished --- ${normal} ✅\n"
