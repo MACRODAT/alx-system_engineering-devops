@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# configures a new Ubuntu machine
+# load bALANCER
 
 # Install nginx on web-01 server
 apt-get -y update
