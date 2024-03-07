@@ -1,15 +1,18 @@
 #!/bin/bash
-# this code will print DNS info
+#  It retrieves DNS information for a specified domain name
+#  and subdomain if provided, and it also provides information
+#  for some default subdomains if no subdomain is provided.
 
 digServer (){
 	if [ -z "$1" ]; then
 		echo "no parameter provided. closing..."
 		exit 1
 	fi
-
-	ans=$(dig "$1"."$2" | grep -A1 "ANSWER SECTION" | tail -n 1)
-	RECORD_TYPE=$(cut -d '\t' -f 3)
-	echo "The subdomain [SUB_DOMAIN] is a $RECORD_TYPE record and points to [DESTINATION]"
+	domain="$1"."$2"
+	ans=$(dig "$domain" | grep -A1 "ANSWER SECTION" | tail -n 1)
+	RECORD_TYPE=$(echo "$ans" | awk '{print $4}')
+	DESTINATION=$(echo "$ans" | awk '{print $5}')
+	echo "The subdomain $1 is a $RECORD_TYPE record and points to $DESTINATION"
 	return 0
 }
 
