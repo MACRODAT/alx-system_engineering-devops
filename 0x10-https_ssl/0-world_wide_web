@@ -1,0 +1,21 @@
+#!/bin/bash
+# this code will print DNS info
+
+digServer (){
+	if [ -z "$1" ]; then
+		echo "no parameter provided. closing..."
+		exit 1
+	fi
+
+	ans=$(dig www.google.com | grep -A1 "ANSWER SECTION" | tail -n 1)
+	echo "$ans"
+	return 0
+}
+
+# echo "Number of params provided is $#"
+if [ $# -lt 1 ]; then
+	echo "$0 Usage:
+		- domain_name subdomain"
+	exit 1
+fi
+digServer "$1"
