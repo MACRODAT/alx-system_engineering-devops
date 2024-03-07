@@ -7,8 +7,9 @@ digServer (){
 		exit 1
 	fi
 
-	ans=$(dig www.google.com | grep -A1 "ANSWER SECTION" | tail -n 1)
-	echo "$ans"
+	ans=$(dig "$1"."$2" | grep -A1 "ANSWER SECTION" | tail -n 1)
+	RECORD_TYPE=$(cut -d '\t' -f 3)
+	echo "The subdomain [SUB_DOMAIN] is a $RECORD_TYPE record and points to [DESTINATION]"
 	return 0
 }
 
@@ -24,8 +25,8 @@ if [ $# -gt 1 ]; then
 fi
 
 if [ $# -eq 1 ]; then
-	digServer www."$1"
-	digServer lb-01."$1"
-	digServer web-01."$1"
-	digServer web-02."$1"
+	digServer www "$1"
+	digServer lb-01 "$1"
+	digServer web-01 "$1"
+	digServer web-02 "$1"
 fi
