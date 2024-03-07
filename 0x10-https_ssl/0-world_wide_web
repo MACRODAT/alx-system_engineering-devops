@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #  It retrieves DNS information for a specified domain name
 #  and subdomain if provided, and it also provides information
 #  for some default subdomains if no subdomain is provided.
