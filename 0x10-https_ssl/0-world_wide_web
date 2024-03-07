@@ -24,7 +24,7 @@ if [ $# -lt 1 ]; then
 fi
 
 if [ $# -gt 1 ]; then
-	digServer "$2"."$1"
+	digServer "$2" "$1"
 fi
 
 if [ $# -eq 1 ]; then
