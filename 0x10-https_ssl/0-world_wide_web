@@ -19,4 +19,13 @@ if [ $# -lt 1 ]; then
 	exit 1
 fi
 
-digServer "$1"
+if [ $# -gt 1 ]; then
+	digServer "$2"."$1"
+fi
+
+if [ $# -eq 1 ]; then
+	digServer www."$1"
+	digServer lb-01."$1"
+	digServer web-01."$1"
+	digServer web-02."$1"
+fi
