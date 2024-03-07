@@ -15,7 +15,8 @@ digServer (){
 # echo "Number of params provided is $#"
 if [ $# -lt 1 ]; then
 	echo "$0 Usage:
-		- domain_name subdomain"
+		- domain_name {optional:subdomain}"
 	exit 1
 fi
+
 digServer "$1"
