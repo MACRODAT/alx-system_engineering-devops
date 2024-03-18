@@ -1,0 +1,38 @@
+# Table of contents 
+
+# What happens when you type google.com and press enter
+
+## introduction
+
+When you type "google.com" into the address bar of a web browser and press enter, several things happen. It may seem trivial when you type google.com in the address bar and press enter, however only a computer expert will have a deep knowledge of all the actions that take place afterwards. 
+
+## Summary
+
+The first thing that happens is what we call a DNS lookup. This is like looking for an address in a reference book. 
+With the IP address resolved the computer will start the process of looking up the page with what we call the tcp/ip protocol. 
+The server will get the request and it will start a chain of internal actions that will lead up to the requested page loading up in the user's browser. 
+
+# The process
+
+## DNS look up 
+The DNS look up will first visit what we call the top level domains. But before that, if the browser has previous backups of that address it will save the whole process of searching the IP address once again. The TLD or top level domains belong to ICANN, which includes addresses like.com. 
+There are several C names in the dNS address book like an a record and AA record etc. 
+
+## TCP/IP
+
+Next the browser will initiate a TCP IP lookup which does include the second and third layers of the networking layers. These sets of protocols will enable the browser to successfully look up the correct server and establish a line of communication with that server. It would ask for a page for instance. 
+
+## Processing the request
+The server will get that request and it will start to process it. 
+
+First of all the load balancer will try to redirect request to a web server according to a predefined scheme. 
+
+## HTTP Protocol
+
+Next the web server will get the request and it will start an HTTP protocol. There is also a firewall that will make sure that the request matches certain criteria and next it will call up the https scl secured protocol. 
+
+## Fetching data
+
+With the public key verified the server will fetch the response either through a web server that is running in that computer or through an application server that will most likely call up a database. Databases organise information to be recalled when needed. 
+
+The user's browser will get that response and it will load up in the browser.
