@@ -13,7 +13,7 @@ path_url = "https://jsonplaceholder.typicode.com/"
 if __name__ == "__main__":
     usr_id = sys.argv[1]
     user = requests.get(path_url + "users/{}".format(usr_id)).json()
-    username = user.get("username")
+    username = user.get("name")
     todos = requests.get(path_url + "todos", params={"userId": usr_id}).json()
 
     with open("{}.csv".format(usr_id), "w", newline="") as csvfile:
