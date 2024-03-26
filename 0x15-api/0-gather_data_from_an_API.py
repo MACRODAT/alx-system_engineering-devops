@@ -11,11 +11,11 @@ REST_API = "https://jsonplaceholder.typicode.com"
 
 
 if __name__ == "__main__":
-    employer = argv[1]
-    j = requests.get(f'{REST_API}/users/{argv[1]}').json()
+    employer = int(argv[1])
+    j = requests.get(f'{REST_API}/users/{employer}').json()
     tasks = requests.get(f'{REST_API}/todos').json()
     name = j.get('name')
-    alltasks = list(filter(lambda x: x.get('userId' == argv[1]), tasks))
+    alltasks = list(filter(lambda x: x.get('userId') == employer, tasks))
     completed_tasks = list(filter(lambda x: x.get('completed'), alltasks))
     print(
         'Employee {} is done with tasks({}/{}):'.format(
